@@ -1,0 +1,117 @@
+.ringA1 {
+    border: solid calc(calc(1*10px)/8) #353535;
+    border-radius: 50%;
+    background-color: transparent;
+    height: calc(1*10px);
+    width: calc(1*10px);
+    margin: calc(calc(1*10px)*0.2);
+    position: relative;
+    display: inline-block;
+    grid-row: 1;
+    z-index: 1;
+    margin-right: calc(-1*8px);
+  }
+  
+  .ringA2 {
+    border: solid calc(calc(2*10px)/8) #353535;
+    border-radius: 50%;
+    background-color: transparent;
+    height: calc(2*10px);
+    width: calc(2*10px);
+    margin: calc(calc(2*10px)*0.2);
+    position: relative;
+    display: inline-block;
+    grid-row: 1;
+    z-index: 2;
+    margin-right: calc(-2*8px);
+  }
+  
+  .ringA3 {
+    border: solid calc(calc(3*10px)/8) #353535;
+    border-radius: 50%;
+    background-color: transparent;
+    height: calc(3*10px);
+    width: calc(3*10px);
+    margin: calc(calc(3*10px)*0.2);
+    position: relative;
+    display: inline-block;
+    grid-row: 1;
+    z-index: 3;
+    margin-right: calc(-3*8px);
+  }
+  
+  .ringA4 {
+    border: solid calc(calc(4*10px)/8) #353535;
+    border-radius: 50%;
+    background-color: transparent;
+    height: calc(4*10px);
+    width: calc(4*10px);
+    margin: calc(calc(4*10px)*0.2);
+    position: relative;
+    display: inline-block;
+    grid-row: 1;
+    z-index: 4;
+    margin-right: calc(-4*8px);
+  }
+  
+  .ringA5 {
+    border: solid calc(calc(5*10px)/8) #353535;
+    border-radius: 50%;
+    background-color: transparent;
+    height: calc(5*10px);
+    width: calc(5*10px);
+    margin: calc(calc(5*10px)*0.2);
+    position: relative;
+    display: inline-block;
+    grid-row: 1;
+    z-index: 5;
+    margin-right: calc(-5*8px);
+  }
+  
+  .ringA6 {
+    border: solid calc(calc(6*10px)/8) #353535;
+    border-radius: 50%;
+    background-color: transparent;
+    height: calc(6*10px);
+    width: calc(6*10px);
+    margin: calc(calc(6*10px)*0.2);
+    position: relative;
+    display: inline-block;
+    grid-row: 1;
+    z-index: 6;
+    margin-right: calc(-6*8px);
+  }
+  
+  .grid {
+    display: grid;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .containter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ring1 {
+    border: solid calc(40px/8) #FF6C0A;
+    border-radius: 50%;
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    margin: calc(40px*0.2);
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ring2 {
+    border: solid calc(60px/8) #FCCA01;
+    border-radius: 50%;
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    margin: calc(60px*0.2);
+    position: relative;
+    display: inline-block;
+  }

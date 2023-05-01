@@ -1,0 +1,40 @@
+@mixin ring ($size, $color) {
+    //box-shadow : calc(#{$size}/15) calc(#{$size}/15) calc(#{$size}/6) darken($color, 30);
+    border : solid calc(#{$size}/8) $color;
+    border-radius : 50%;
+    background-color :transparent;
+    height : $size;
+    width : $size;
+    margin: calc(#{$size}*0.2);
+    position : relative;
+    display: inline-block;
+} 
+
+@for $i from 1 through 6 {
+  .ringA#{$i} {
+        @include ring(calc(#{$i}*10px), #353535);
+        grid-row : 1; 
+        z-index : $i;
+        margin-right: calc(#{-$i}*8px);
+    }
+}
+
+.grid {
+    display : grid;
+    align-items : center;
+    margin : auto;
+}
+
+.containter {
+    display : flex;
+    justify-content : center;
+    align-items: center;
+}
+
+.ring1 {
+    @include ring(40px, #FF6C0A);
+}
+
+.ring2 {
+    @include ring(60px, #FCCA01);
+}
